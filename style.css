@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,800");
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Catamaran', sans-serif;
+  color: #E2EAEA; }
+
+.choice {
+  width: 300px;
+  background-color: #E2EAEA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #1d1d1d;
+  cursor: pointer; }
+
+.xs {
+  border-bottom: 2px solid #E2EAEA; }
+
+.os {
+  border-bottom: 2px solid #E2EAEA; }
+
+.xs:hover {
+  border-bottom: 2px solid #37A1E1; }
+
+.os:hover {
+  border-bottom: 2px solid #E83938; }
+
+.game-container {
+  text-align: center;
+  display: none; }
+
+.text {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 18px; }
+
+.bold {
+  font-weight: 800; }
+
+.container {
+  width: 303px;
+  height: 303px;
+  flex-wrap: wrap;
+  font-size: 36px;
+  display: none; }
+
+.grid {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.x {
+  color: #37A1E1; }
+
+.o {
+  color: #E83938; }
+
+#s-1 {
+  border-bottom: 1px solid #E2EAEA;
+  border-right: 1px solid #E2EAEA; }
+
+#s-2 {
+  border-bottom: 1px solid #E2EAEA; }
+
+#s-3 {
+  border-bottom: 1px solid #E2EAEA;
+  border-left: 1px solid #E2EAEA; }
+
+#s-4 {
+  border-right: 1px solid #E2EAEA; }
+
+#s-5 {
+  border-right: 1px solid #E2EAEA; }
+
+#s-7 {
+  border-right: 1px solid #E2EAEA;
+  border-top: 1px solid #E2EAEA; }
+
+#s-8 {
+  border-top: 1px solid #E2EAEA; }
+
+#s-9 {
+  border-left: 1px solid #E2EAEA;
+  border-top: 1px solid #E2EAEA; }
+
+/*# sourceMappingURL=style.css.map */
